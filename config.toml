@@ -1,0 +1,29 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "CENO browser"
+theme = "ananke"
+
+DefaultContentLanguge = "en"
+SectionPagesMenu = "main"
+Paginate = 5
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[languages]
+ [languages.en]
+  title= "CENO browser"
+  weight = 1
+  contentDir = "content/en"
+ [languages.es]
+  title = "navegador CENO"
+  weight = 1
+  contentDir = "content/es"
+
+[sitemap]
+ changefreq = "monthly"
+ priority = 0.5
+ filename = "sitemap.xml"
+
+[params]
+ description = "CENO (Censorship.No!) is a mobile web browser for accessing the web even when the internet is down. CENO Browser is powered by Ouinet, an advanced peer-to-peer technology that connects you to a network of cooperating peers sharing a library of web content."
+ github = "https://github.com/censorship-no/ceno-browser"
