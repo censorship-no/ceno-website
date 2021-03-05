@@ -4,6 +4,7 @@ date: 2021-03-03T14:53:57+08:00
 featured_image: ""
 description: ""
 draft: true
+type: page
 ---
 # Operational Warnings
 ## Battery and data usage
