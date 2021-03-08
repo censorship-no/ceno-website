@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <article class="pa3 pa4-ns nested-copy-line-height nested-img">
+      {{ range .Paginator.Pages }}
+        <div class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+          <div align="left">
+            {{- .Content -}}
+          </div>
+        </div>
+      {{ end }}
+  </article>
+{{ end }}
