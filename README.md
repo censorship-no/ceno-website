@@ -5,10 +5,14 @@ Hugo is required - you can install Hugo using the following:
 
 `sudo apt-get install hugo`
 
-Clone the repo and run the following to serve the site locally via localhost:1313:
+Clone the repo:
 
-`hugo server -D`
+`git clone git@github.com:censorship-no/ceno-website.git`
 
 You will also need to enable the Ananke theme's Git submodule using:
 
 `git submodule update --init --recursive`
+
+Run the following to serve the site locally via localhost:1313:
+
+`hugo server -D`
