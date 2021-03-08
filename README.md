@@ -13,6 +13,6 @@ You will also need to enable the Ananke theme's Git submodule using:
 
 `git submodule update --init --recursive`
 
-Run the following to serve the site locally via https://localhost:1313:
+Run the following to serve the site locally via http://localhost:1313:
 
 `hugo server -D`
