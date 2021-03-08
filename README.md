@@ -5,11 +5,15 @@ Hugo is required - you can install Hugo using the following:
 
 `sudo apt-get install hugo`
 
-Clone the repo:
+For Mac users:
+
+`brew install hugo`
+
+Clone the repo, which will become a subdirectory of the directory of your choosing:
 
 `git clone git@github.com:censorship-no/ceno-website.git`
 
-You will also need to enable the Ananke theme's Git submodule using:
+Move into the ceno-website directory and enable the Ananke theme's Git submodule using:
 
 `git submodule update --init --recursive`
 
