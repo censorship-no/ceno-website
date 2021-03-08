@@ -1,7 +1,7 @@
 baseURL = "https://censorship.no/"
 languageCode = "en-us"
 title = "CENO browser"
-theme = "ananke"
+theme = "../themes/ananke"
 
 DefaultContentLanguge = "en"
 SectionPagesMenu = "main"
