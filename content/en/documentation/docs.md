@@ -1,5 +1,5 @@
 ---
-title: "How CENO work"
+title: "How CENO Works"
 date: 2021-03-03T14:54:43+08:00
 featured_image: ""
 description: ""
