@@ -2,33 +2,31 @@ baseURL = "https://censorship.no/"
 languageCode = "en-us"
 title = "Censorship.no!"
 theme = "../themes/ananke"
-
-DefaultContentLanguge = "en"
 SectionPagesMenu = "main"
+DefaultContentLanguge = "en"
 Paginate = 5
-googleAnalytics = ""
 enableRobotsTXT = true
 
 [languages]
  [languages.en]
-  title= "CENO browser"
+  title= "CENO Browser"
   weight = 1
   contentDir = "content/en"
  [languages.es]
-  title = "navegador CENO"
+  title = "Navegador CENO"
   weight = 1
   contentDir = "content/es"
 
 [sitemap]
- changefreq = "monthly"
  priority = 0.5
  filename = "sitemap.xml"
 
 [params]
  favicon = "images/logo_ceno.ico"
- site_logo = "images/logo_ceno.png"
+ site_logo = "images/CENO-logo-alternative.png"
  description = "CENO (Censorship.No!) is a mobile web browser for accessing the web even when the internet is down. CENO Browser is powered by Ouinet, an advanced peer-to-peer technology that connects you to a network of cooperating peers sharing a library of web content."
  github = "https://github.com/censorship-no/"
+ email = "mailto:cenoers@equalit.ie"
 
  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
  background_color_class = "bg-blue"
@@ -39,7 +37,7 @@ enableRobotsTXT = true
     identifier = "download"
     name = "Download"
     url = "/download/"
-    weight = -110
+    weight = 1
     [menu.main.params]
       class = "highlight-menu-item"
 
@@ -48,15 +46,15 @@ enableRobotsTXT = true
     name = "About"
     pre = "<i class='fa fa-heart'></i>"
     url = "/about/"
-    weight = -110
+    weight = 2
     [menu.main.params]
       class = "highlight-menu-item"
 
-[[menu.main]]
+[[ menu.main]]
     identifier = "docs"
-    name = "Documentation"
-    url = "/documentation/"
-    weight = -110
+    name = "Docs"
+    url = "/docs/"
+    weight = 3
     [menu.main.params]
       class = "highlight-menu-item"
 
@@ -64,14 +62,14 @@ enableRobotsTXT = true
     identifier = "user-manual"
     name = "User Manual"
     url = "/user-manual/en/"
-    weight = -110
+    weight = 4
     [menu.main.params]
       class = "highlight-menu-item"
 
 [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = -110
+    identifier = "support"
+    name = "Support"
+    url = "/support/"
+    weight = 5
     [menu.main.params]
       class = "highlight-menu-item"

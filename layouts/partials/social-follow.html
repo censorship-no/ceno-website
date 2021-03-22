@@ -78,3 +78,12 @@
   {{- partial "new-window-icon.html" . -}}
 </a>
 {{ end }}
+
+{{ with .Param "email" }}
+<a href="{{ . }}" target="_blank" class="link-transition rss link dib z-999 pt3 pt0-l mr1" title="Contact Us" rel="noopener" aria-label="Opens your email client">
+  {{ partial "svg/email.svg" (dict "size" $icon_size) }}
+  {{- partial "new-window-icon.html" . -}}
+</a>
+{{ end }}
+
+
