@@ -34,14 +34,14 @@ enableRobotsTXT = true
 
 [menu]
 
-[[menu.main]]
-    identifier = "download"
-    name = "Get CENO"
-    url = "/download/"
-    weight = 9999
-    [menu.main.params]
+#[[menu.main]]
+#    identifier = "download"
+#    name = "Get CENO"
+#    url = "/download/"
+#    weight = 9999
+#    [menu.main.params]
 #      class = "highlight-menu-item"
-    class = "button"
+#    class = "button"
 
 #[[menu.main]]
 #    identifier = "about"
