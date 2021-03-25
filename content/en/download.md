@@ -1,10 +1,11 @@
 ---
-title: "Downloads"
+title: "Get CENO"
 date: 2021-03-03T14:56:07+08:00
 featured_image: ""
 description: ""
 draft: true
 ---
+
 # Where to get it
 
 The CENO browser for Android is available [in Google Play](https://play.google.com/store/apps/details?id=ie.equalit.ceno "CENO app in Google Play") and [in Paskoocheh](https://paskoocheh.com/tools/124/android.html "CENO app in Paskoocheh").  The Android package (APK) is also available [in GitHub](https://github.com/censorship-no/ceno-browser/releases "CENO app in GitHub").
