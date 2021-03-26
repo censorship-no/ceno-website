@@ -1,10 +1,17 @@
 <footer class="{{ .Site.Params.footer_color_class | default "bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
+<div class="dt-ns dt--fixed-ns">
+  <div class="dtc-ns tc pv4 bg-black-10">
+    1
+  </div>
+  <div class="dtc-ns tc pv4 bg-black-05 justify-between align-left">
   <a href="https://equalit.ie"><img src="/images/eq_logo.png" alt width="165" height="37" size="(max-width: 165px) 100vw, 165px" href="https://equalit.ie"> </img></a>	
-  <br><p class="f4 white">CENO Browser is a project by eQualitie - a not-for-profit company developing open and reusable systems with a focus on privacy, online security, and information management. Our goal is to create accessible technology and improve the skill-set needed for defending human rights and freedoms in the digital age.</p>
+  <br><p class="f4 white align-left">CENO Browser is a project by eQualitie - a not-for-profit company developing open and reusable systems with a focus on privacy, online security, and information management. Our goal is to create accessible technology and improve the skill-set needed for defending human rights and freedoms in the digital age.</p>
   <hr>
-  <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .Site.BaseURL }}" >
     &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
     {{ partial "social-follow.html" . }}</div>
+  <div class="dtc-ns tc pv4 bg-black-10">
+    3
   </div>
+</div>
 </footer>

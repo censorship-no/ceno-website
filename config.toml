@@ -45,14 +45,14 @@ enableRobotsTXT = true
 #      class = "highlight-menu-item"
 #    class = "button"
 
-#[[menu.main]]
-#    identifier = "about"
-#    name = "About"
-#    pre = "<i class='fa fa-heart'></i>"
-#    url = "/about/"
-#    weight = 2
-#    [menu.main.params]
-#      class = "highlight-menu-item"
+[[menu.main]]
+    identifier = "about"
+    name = "How It Works"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about/"
+    weight = 2
+    [menu.main.params]
+      class = "highlight-menu-item"
 
 #[[ menu.main]]
 #    identifier = "docs"
